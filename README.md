@@ -5,7 +5,7 @@
 Generate vanity Ethereum address with prefix 0x1a2b
 
 ```bash
-python .\pyvanityeth.py --prefix 0x1a2b
+python .\pyvanityeth.py --prefix 0x1a2b --retry
 ```
 
 To display a help message listing the available command line arguments, run:
