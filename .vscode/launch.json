@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: pyvanityeth",
+            "type": "python",
+            "request": "launch",
+            "program": "pyvanityeth.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--verbose", "--verify",
+                "--output", "./output/l_1a2b.txt",
+                "--prefix", "1a2b",
+                "--blocks", "5000",
+                "--blockSize", "256",
+                "--blockIterations", "20"
+            ]
+        }
+    ]
+}
